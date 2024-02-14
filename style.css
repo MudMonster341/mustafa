@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+/* Main Section */
+.main-section {
+  background: linear-gradient(#000, #222); /* Black and dark gray gradient */
+  color: #fff; /* White font color */
+  text-align: center;
+  padding: 100px 0; /* Increased padding */
+}
+
+.main-section h1,
+.main-section p {
+  margin: 0;
+}
+
+.content-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.text-content {
+  flex: 1;
+}
+
+/* Introduction Section */
+#introduction {
+  background-color: #FFA500; /* Orange background */
+}
+
+/* Floating Boxes Section */
+.floating-box {
+  background-color: #fff; /* White background */
+  color: #333; /* Dark gray text color */
+  padding: 20px;
+  margin: 20px;
+  border: 2px solid #333; /* Dark gray border */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.5s, background 0.5s, color 0.5s, border 0.5s, box-shadow 0.5s;
+  text-align: center;
+}
+
+.floating-box:hover {
+  transform: scale(1.05); /* Smoothed the 3D-looking rotation */
+  background-color: #FFA500; /* Orange background on hover */
+  color: #fff; /* White text color on hover */
+  border: 2px solid #fff; /* White border on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Adjusted box shadow on hover */
+}
+
+.floating-box h2 {
+  font-size: 2em;
+  font-weight: bold; /* Added bold text */
+}
+
+.floating-box p {
+  font-size: 1.2em;
+  font-weight: bold; /* Added bold text */
+}
+
+/* Common Styling for Header and Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
